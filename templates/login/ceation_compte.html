@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<h4>Créer un nouveau compte</h4>
+<div class="creerForm">
+    <form method="post" action='' class="creer">
+        {% csrf_token %}
+        <div>
+        <label for="username">username</label>
+        <input type="text" name="username" id="username" required >
+        </div>
+
+        <div>
+        <label for="firstname">first name</label>
+        <input type="text" name="firstname" id="firstname" required>
+    </div>
+    <div>
+        <label for="lastname">last name</label>
+        <input type="text" name="lastname" id="lastname" required>
+    </div>
+    <div>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" required>
+    </div>
+    <div>
+        <label for="password1">password</label>
+        <input type="password" name="password1" id="password1" required>
+    </div>
+    <div>
+        <label for="password2">confirmer</label>
+        <input type="password" name="password2" id="password2" required>
+    </div>
+        <button type="submit">Créer un compte</button>
+        {% for message in  messages%}
+
+        <p style="color:red;">{{message}}</p>
+        
+        {% endfor %}
+        
+    </form>
+   
+</div>
+{% endblock content %}

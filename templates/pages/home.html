@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+{% if user.is_authenticated%}
+<div class="pna">
+    <div class="proffil"> <a href="{% url "profil" %}">profil</a></div>
+    <div class="notification"><a href="">notification</a></div>
+    <div class="article"><a href="">publier</a></div>
+</div>  
+{% endif %}
+<div class="creerArticle">
+  
+</div>
+{% endblock  %}
+     
