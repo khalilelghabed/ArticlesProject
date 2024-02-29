@@ -1,0 +1,22 @@
+
+.publication{
+    
+    width: 100%;
+    height: 20%;
+    border: solid black 2px;
+ 
+}
+.auteur , .title {
+    font-size: 20px;
+}
+.auteur >p {
+    padding: 5px;
+    font-weight: bold;
+    box-shadow: 0px 2px 1px  #00a6ffe2;
+}
+.title >p {
+   padding: 0px 10px;
+}
+.content > p{
+   padding: 10px 5px;
+}

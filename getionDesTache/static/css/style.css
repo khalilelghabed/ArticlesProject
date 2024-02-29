@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+body {
+height:120vh;
+
+
+
+    border: solid 5px red;
+
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 3%;
+}
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images img {
+    width: 80%;
+    height: 90%;
+}
+
+section{
+    position: relative;
+    box-sizing: border-box;
+   height: 70%;
+   display: flex;
+   flex-direction: column;
+   
+    justify-items: center;
+    align-items: center;
+    background-color:  rgba(213, 188, 153, 0.34)
+}
+
+nav ul li {
+    margin: 0 10px; /* Espacement entre les éléments */
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Couleur du texte */
+    font-weight: bold; /* Police en gras */
+    text-transform: uppercase; /* Texte en majuscules */
+}
+nav ul li a:hover {
+    color: #ffcc00; /* Couleur du texte au survol */
+}
+nav form {
+    display: flex;
+    align-items: center;
+}
+nav input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+footer{
+    height: 20%;
+}
+
+
+
+.images{
+    width: 100%;
+    height: 90% ;
+}
+nav {
+   height: 6%;
+   border: solid 2px black;
+   display: flex;
+   /* Couleur de fond */
+   padding: 10px 0;
+   font-size: 20px;
+}
+.authen{
+  
+
+}
+nav ul li {
+    margin: 0 10px; /* Espacement entre les éléments */
+}
+nav >ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly; /* Alignement horizontal */
+    align-items: center; 
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Couleur du texte */
+}
+
+nav ul li a:hover {
+    color: #f00; /* Couleur du texte au survol */
+}
+nav form {
+    display: flex;
+    align-items: center;
+    
+}
+
+nav input[type="text"] {
+    border: solid 1px black;
+    width: 300px;
+    height: 40px;
+    padding: 5px 10px;
+     /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+ 
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+nav button[type="submit"] {
+    padding: 5px 10px;
+    width: 120px;
+    height: 40px;
+    background-color: #007bff; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+nav button[type="submit"]:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+}
+.Cont {
+    background-color: white;
+    height: 100%;
+    width:50%;
+    
+}
+.pna  {
+    border:  solid 2px blue;
+    justify-content: space-around;
+    display: flex;
+    padding: 5px;
+    font-size: 1.5em;
+    
+}
+
+a {
+text-decoration: none;
+}
+/*
+.image-container {
+    width: 300px; /* Ajustez la largeur selon vos besoins 
+    height: 200px; /* Ajustez la hauteur selon vos besoins 
+    overflow: hidden;
+    position: relative;
+  }
+  .image-container img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    transition: transform 5s linear infinite; /* 5 secondes pour faire défiler chaque image 
+  }
+  .image-container img:nth-child(2) {
+    transform: translateX(-100%);
+  }
+  .image-container img:nth-child(3) {
+    transform: translateX(-200%);
+  }
+  .image-container img:nth-child(4) {
+    transform: translateX(-300%);
+  }
